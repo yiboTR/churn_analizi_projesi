@@ -18,10 +18,11 @@ Bu projede kullanılan veri seti, Kaggle'da bulunan "Telco Customer Churn" veri 
     * **Random Forest Classifier**
     * **XGBoost Classifier**
 4.  **Model Değerlendirme:** Modellerin performansı `Accuracy`, `Precision`, `Recall`, `F1-Score` gibi metriklerle ve `Confusion Matrix` ile değerlendirilmiştir.
+5.  **Özellik Mühendisliği ve Hiperparametre Optimizasyonu:** Random Forest modeli için GridSearchCV kullanılarak en iyi parametreler bulundu.  
 
 ## 📈 Model Sonuçları ve Bulgular
 
-Her iki model de ~%78 doğruluk oranı elde etmiştir. Müşteri kaybını tahmin etmede en önemli metrik olan **Recall** değerinde, **XGBoost modeli (%55)**, Random Forest modeline (%51) göre biraz daha iyi performans göstermiştir.
+Her iki model de ~%79 doğruluk oranı elde etmiştir. Müşteri kaybını tahmin etmede en önemli metrik olan **Recall** değerinde, **XGBoost modeli (%51)**, Random Forest modeline (%50) göre biraz daha iyi performans göstermiştir.
 
 Özellik Önem Analizi'ne göre, müşteri kaybını etkileyen en önemli 3 faktör şunlardır:
 1.  **İnternet Servisi (Fiber Optik)**: İnternet Servisi'ne sahip müşterilerin ayrılma olasılığı çok daha yüksek.
